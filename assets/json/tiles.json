@@ -1,0 +1,12 @@
+{
+    "images": ["assets/img/tiles.png"],
+    "frames": {"width": 50, "height": 51, "regX":0, "regY":0},
+    "animations": {
+        "grassDark": [0],
+        "grassLight": [1],
+        "sand":[2],
+        "tileGreen":[3],
+        "tileBlue":[4],
+        "tilePink":[5]
+    }
+}

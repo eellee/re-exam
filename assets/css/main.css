@@ -1,0 +1,134 @@
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #222222;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #276f75;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#canvas-container {
+    width: 100%;
+    text-align: center;
+}
+
+.btnL {
+    float: left;
+    margin: 10px;
+    font-family: "Josefin Sans";
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: #00A87E;
+    border: solid 2px #00A87E;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+}
+ul {
+    list-style-type: none;
+}
+
+#btnContainerL {
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    float:left;
+    padding-left: 5%;
+}
+
+#btnContainerR {
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    float:right;
+    padding-right: 10%;
+}
+
+.btnL:hover{
+    background-color: #00A87E;
+    color: white;
+}
+.btnR:hover {
+    background-color: #00A87E;
+    color: white;
+}
+.btn {
+    margin: 10px;
+    font-family: "Josefin Sans";
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: #00A87E;
+    border: solid 2px #00A87E;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+    align: middle;
+    display: inline-block;
+    width: 80%
+}
+
+.btn:hover {
+    background-color: #00A87E;
+    color: white;
+}
+.btnR {
+    float: right;
+    margin: 10px;
+    font-family: "Josefin Sans";
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: #00A87E;
+    border: solid 2px #00A87E;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    display: block;
+}
+
+#gomuImg {
+    position: absolute;
+    display: inline-block;
+    top: 10%;
+    left: 30%;
+}
+.left {
+    float: left;
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+    align-items:center;
+}
+.center {
+    float: top;
+    display: inline-block;
+}

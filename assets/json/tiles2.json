@@ -1,0 +1,15 @@
+{
+    "images": ["assets/img/tiles2.png"],
+    "frames": {"width": 51.5, "height": 54, "regX":0, "regY":0},
+    "animations": {
+        "spaceship": [0],
+        "grassDark": [1],
+        "grassLight": [2],
+        "sand":[3],
+        "tileGreen":[4],
+        "tileBlue":[5],
+        "tilePink":[6],
+        "grass": [7],
+        "fire": [8]
+    }
+}

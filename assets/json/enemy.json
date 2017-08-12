@@ -1,0 +1,11 @@
+{
+    "framerate": 5,
+    "images": ["assets/img/enemy.png"],
+    "frames": {"width": 75, "height": 60, "regX":0, "regY":0},
+    "animations": {
+        "left": [0],
+        "right":[1],
+        "idle": [2],
+        "down": [3]
+    }
+}

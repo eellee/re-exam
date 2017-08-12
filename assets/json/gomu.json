@@ -1,0 +1,14 @@
+{
+    "framerate": 1,
+    "images": ["assets/img/gomu.png"],
+    "frames": {"width": 70, "height": 63, "regX":0, "regY":0},
+    "animations": {
+        "idle": [0,1],
+        "right":[2,3],
+        "left": [4,5],
+        "down": [6],
+        "dead": [7],
+        "up": [8],
+        "shoot": [9]
+    }
+}
